@@ -1,6 +1,7 @@
-**🎯 Ace Your Interviews with AI – Mock Interview Web App**
-Ace your next opportunity with smart, AI-driven interview prep!
-This full-stack web application allows users to create personalized mock interviews, get instant feedback powered by Google Gemini AI, and track progress seamlessly.**
+#🎯 Ace Your Interviews with AI – Mock Interview Web App
+---
+This full-stack web application allows users to create personalized mock interviews, get instant feedback powered by Google Gemini AI, and track progress seamlessly.
+---
 
 **🚀 Features:-**
 
@@ -15,6 +16,8 @@ This full-stack web application allows users to create personalized mock intervi
 📊 Progress Tracking — Real-time data storage and analysis with Firebase Firestore
 
 🎨 Responsive UI — Built with Shadcn UI and Tailwind CSS for clean, modern design
+
+---
 
 
 **🛠️ Tech Stack:-**
