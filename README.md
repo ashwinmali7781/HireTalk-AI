@@ -1,30 +1,28 @@
-🎯 Ace Your Interviews with AI – Build and Practice with an Intelligent Mock Interview Web App!
-Level up your interview prep with a full-stack AI-powered platform. Create personalized mock interviews, receive real-time AI feedback, and sharpen your skills—built using the latest tech stack. 🚀
+**🎯 Ace Your Interviews with AI – Mock Interview Web App**
+Ace your next opportunity with smart, AI-driven interview prep!
+This full-stack web application allows users to create personalized mock interviews, get instant feedback powered by Google Gemini AI, and track progress seamlessly.**
 
-🛠️ Key Features of the Project
-✨ User Authentication — Seamless login & registration powered by Clerk.
-🛠️ Custom Interview Builder — Choose your domain, set preferences, and generate personalized interviews.
-🧠 AI-Powered Feedback — Get intelligent insights using Google Gemini AI.
-🔊 Text-to-Speech Review — Listen to your answers and refine your communication.
-📊 Live Data Sync — Secure, real-time storage of progress with Firebase.
-🎨 Elegant UI Design — Clean, responsive interface using Shadcn UI + Tailwind CSS.
+**🚀 Features:-**
 
-🧰 Tech Stack
-Frontend:
-⚛️ React (Vite)
-🧪 TypeScript
-💅 Tailwind CSS
-🧱 Shadcn/UI Components
+🔐 User Authentication — Seamless login & registration powered by Clerk
 
-Backend / API:
-🔐 Clerk (Authentication)
-🤖 Google Gemini AI (AI Analysis & Feedback)
-🔉 Text-to-Speech (Web Speech API / Gemini voice)
+🛠️ Custom Interview Builder — Choose domain, tech stack, and generate AI-based questions
 
-Database & Hosting:
-🔥 Firebase Firestore (Real-time database)
-☁️ Firebase Hosting (Deployment & static assets)
+🧠 AI-Powered Analysis — Feedback and evaluation using Google Gemini AI
 
-Others:
-🧭 React Router (Routing)
-📦 Vite (Build tool)
+🔊 Text-to-Speech — AI reads your answers back to you for clarity and improvement
+
+📊 Progress Tracking — Real-time data storage and analysis with Firebase Firestore
+
+🎨 Responsive UI — Built with Shadcn UI and Tailwind CSS for clean, modern design
+
+
+**🛠️ Tech Stack:-**
+
+| **Layer**            | **Technology**                                    |
+| -------------------- | ------------------------------------------------- |
+| 🖥️ **Frontend**     | React (Vite), TypeScript, Tailwind CSS, Shadcn UI |
+| 🔧 **Backend / API** | Clerk (Auth), Google Gemini API, Web Speech API   |
+| 💾 **Database**      | Firebase Firestore                                |
+| ☁️ **Hosting**       | Firebase Hosting                                  |
+| 📦 **Others**        | React Router, Vite, Zod, React Hook Form          |
