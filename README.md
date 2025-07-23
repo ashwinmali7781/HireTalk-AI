@@ -1,74 +1,30 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+🎯 Ace Your Interviews with AI – Build and Practice with an Intelligent Mock Interview Web App!
+Level up your interview prep with a full-stack AI-powered platform. Create personalized mock interviews, receive real-time AI feedback, and sharpen your skills—built using the latest tech stack. 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Key Features of the Project
+✨ User Authentication — Seamless login & registration powered by Clerk.
+🛠️ Custom Interview Builder — Choose your domain, set preferences, and generate personalized interviews.
+🧠 AI-Powered Feedback — Get intelligent insights using Google Gemini AI.
+🔊 Text-to-Speech Review — Listen to your answers and refine your communication.
+📊 Live Data Sync — Secure, real-time storage of progress with Firebase.
+🎨 Elegant UI Design — Clean, responsive interface using Shadcn UI + Tailwind CSS.
 
-Currently, two official plugins are available:
+🧰 Tech Stack
+Frontend:
+⚛️ React (Vite)
+🧪 TypeScript
+💅 Tailwind CSS
+🧱 Shadcn/UI Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend / API:
+🔐 Clerk (Authentication)
+🤖 Google Gemini AI (AI Analysis & Feedback)
+🔉 Text-to-Speech (Web Speech API / Gemini voice)
 
-## Expanding the ESLint configuration
+Database & Hosting:
+🔥 Firebase Firestore (Real-time database)
+☁️ Firebase Hosting (Deployment & static assets)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# HireTalk-AI
-This is a Full Stack AI Project.
->>>>>>> 1a5a4da2724adcbe9c29391e4259422df5e2cb4d
+Others:
+🧭 React Router (Routing)
+📦 Vite (Build tool)
