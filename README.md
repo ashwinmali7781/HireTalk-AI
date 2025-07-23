@@ -1,15 +1,15 @@
-#🎯 Ace Your Interviews with AI – Mock Interview Web App
+*🎯 Ace Your Interviews with AI – Mock Interview Web App*
 ---
-This full-stack web application allows users to create personalized mock interviews, get instant feedback powered by Google Gemini AI, and track progress seamlessly.
+*This full-stack web application allows users to create personalized mock interviews, get instant feedback by Google Gemini API, and track progress seamlessly.*
 ---
 
-**🚀 Features:-**
+## **🚀 Features:-**
 
 🔐 User Authentication — Seamless login & registration powered by Clerk
 
 🛠️ Custom Interview Builder — Choose domain, tech stack, and generate AI-based questions
 
-🧠 AI-Powered Analysis — Feedback and evaluation using Google Gemini AI
+🧠 AI-Powered Analysis — Feedback and evaluation using Google Gemini API
 
 🔊 Text-to-Speech — AI reads your answers back to you for clarity and improvement
 
@@ -17,15 +17,22 @@ This full-stack web application allows users to create personalized mock intervi
 
 🎨 Responsive UI — Built with Shadcn UI and Tailwind CSS for clean, modern design
 
----
 
 
-**🛠️ Tech Stack:-**
+## **🛠️ Tech Stack:-**
 
 | **Layer**            | **Technology**                                    |
 | -------------------- | ------------------------------------------------- |
 | 🖥️ **Frontend**     | React (Vite), TypeScript, Tailwind CSS, Shadcn UI |
-| 🔧 **Backend / API** | Clerk (Auth), Google Gemini API, Web Speech API   |
+| 🔧 **Backend / API** | Clerk (Auth), Google Gemini API,   |
 | 💾 **Database**      | Firebase Firestore                                |
 | ☁️ **Hosting**       | Firebase Hosting                                  |
 | 📦 **Others**        | React Router, Vite, Zod, React Hook Form          |
+
+## 💡 **What I Learned**
+
+- ✅ **Integrating Google Gemini API** with a React application  
+- ✅ **Using Firebase** for real-time database functionality  
+- ✅ **Implementing Clerk Authentication** for secure login & signup  
+- ✅ **Building Responsive UIs** using Shadcn UI and Tailwind CSS  
+- ✅ **Deploying a Full-Stack Web App** with Firebase Hosting
