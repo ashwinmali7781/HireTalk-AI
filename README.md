@@ -34,5 +34,4 @@
 - ✅ **Integrating Google Gemini API** with a React application  
 - ✅ **Using Firebase** for real-time database functionality  
 - ✅ **Implementing Clerk Authentication** for secure login & signup  
-- ✅ **Building Responsive UIs** using Shadcn UI and Tailwind CSS  
-- ✅ **Deploying a Full-Stack Web App** with Firebase Hosting
+- ✅ **Building Responsive UIs** using Shadcn UI and Tailwind CSS
